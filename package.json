@@ -1,5 +1,5 @@
 {
-  "name": "school-api",
+  "name": "books-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,8 @@
   "author": "Adams Ganiwu",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "mongoose": "^6.5.4",
-    "morgan": "^1.10.0",
-    "morx": "^0.0.5",
-    "nodemon": "^2.0.19",
-    "noi": "^1.0.0",
-    "yup": "^0.32.11"
+    "nodemon": "^2.0.19"
   }
 }
