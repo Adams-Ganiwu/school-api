@@ -12,13 +12,20 @@ const userSchema = mongoose.Schema({
         require: true,
         unique: true,
     },
-    passwword: {
+    password: {
         type: String,
         require: true,
         
+    },
+    isAdmin: {
+        type: Boolean,
+        default:false
     }
 
-})
+}, {
+    timestamps:true
+}
+)
 
 const User = mongoose.model("user", userSchema)
 module.exports = User;
